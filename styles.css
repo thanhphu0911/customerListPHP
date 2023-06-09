@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #c8b6ff;
+    color: #f5f6f7;
+    font-family: 'Poppins', san-serifs;
+    font-size: 16px;
+  }
+  
+  h1,p{
+    text-align:center;
+    
+  }
+  
+  h1{
+  font-size: 2em;
+  margin: 1em auto 0 auto;
+  }
+  
+  p{
+  font-style: italic;
+  margin: 0 auto 1em auto;
+  font-size: 20px;
+  }
+  
+  form{
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.5);
+  
+  font-size:19px;
+  padding: 1.5em 1.4em;
+  max-width:600px;
+  margin: 0 auto;
+  }
+  
+  label{
+    display: block;
+    margin: 0.3rem 0;
+  }
+  
+  .questions{
+    margin-top: 1rem;
+  }
+  
+  input,
+  textarea,
+  select {
+    display: block;
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
+  
+  input, select{
+    height: 2em;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem; 
+  }
+  .inline{
+    display:inline;
+    margin: 0 0.5em 0 0;
+    width:unset;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"]{
+    background: #37af65;
+    padding: auto;
+    color: white;
+    font-weight: bold;
+  }
+
+  .nav-item{
+    font-size: 2em;
+  }
+  
